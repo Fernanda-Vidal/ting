@@ -31,3 +31,4 @@ def file_metadata(instance: Queue, position):
         return sys.stdout.write(str(file))
     except IndexError:
         print("Posição inválida\n", file=sys.stderr)
+
